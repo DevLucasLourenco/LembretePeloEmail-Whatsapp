@@ -95,7 +95,7 @@ def enviar_email():
     usuario = yagmail.SMTP(user=meu_email,password=minha_senha)
 
 
-    assunto_email ='remedioooo'
+    assunto_email ='remedio'
 
     html = f"""
     <h1>OLá, {nome_destino}!</h1>
@@ -106,7 +106,7 @@ def enviar_email():
     Atenciosamente,
     Fulano de Tal
     """
-    yagmail.inline('algumaimg.jpg')
+    
 
 
     try:
